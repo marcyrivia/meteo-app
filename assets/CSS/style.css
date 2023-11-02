@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+	font-family: 'Francois-One';
+    src: url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Francois-One';
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vh;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+#searchInput{
+    border: none;
+    background: rgb(161,214,250);
+    background: linear-gradient(166deg, rgba(161,214,250,1) 31%, rgba(0,212,255,1) 100%);
+    border-radius: 16px;
+    height: 3rem;
+    width: 22rem;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+input :focus{
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-size: 1.3em;
+  }
+
+  
+#mainTemp{
+    margin-top: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(161,214,250);
+    background: linear-gradient(166deg, rgba(161,214,250,1) 31%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+    height: 30vh;
+    width: auto;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    }
+
+.date{
+    color: white;
+    font-weight: 5vh;
+    position: absolute;
+    margin-bottom: 20vh;
+}
+
+.temperature{
+    color: white;
+    font-size: 8vh;
+}
+.description{
+    color: white;
+}
+
+.tempMain{
+        background: rgb(161,214,250);
+        background: linear-gradient(166deg, rgba(161,214,250,1) 31%, rgba(0,212,255,1) 100%);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
